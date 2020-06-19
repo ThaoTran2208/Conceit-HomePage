@@ -234,3 +234,43 @@ h5{
 	border: 3px solid #7b8687;
 	padding: 25px;
 }
+
+
+.signup{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.signup_title
+{
+	width: 445px;
+	margin: 50px 15px;
+}
+.signup_title h3
+{
+	color: #333333;
+	letter-spacing: 3px;
+}
+.signup_form
+{
+	width: 630px;
+	margin: 50px 15px;
+}
+.signup_form input[type=email]
+{
+	width: 80%;
+	height: 40px;
+	border: 1px solid #333;
+	padding-left: 10px;
+	font-style: italic;
+}
+.signup_form button
+{
+	width: 19%;
+	border: none;
+	background-color: #76daff;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 3px;
+	line-height: 40px;
+}
