@@ -121,3 +121,39 @@ h5{
 	color: #222222;
 	padding-bottom: 15px;
 }
+
+
+.what_we_do_item
+{
+	width: 255px;
+	margin: 15px;
+	text-align: center;
+	padding: 20px 0 50px 0;
+	background-color: #1c1c1c;
+}
+.what_we_do_icon
+{
+	width: 122px;
+	height: 122px;
+	border: 2px solid #fff;
+	font-size: 40px;
+	color: #fff;
+	line-height: 122px;
+	margin: 15px auto;
+	border-radius: 50%;
+}
+.what_we_do_item h4
+{
+	letter-spacing: 2px;
+	color: #fff;
+}
+.what_we_do_item p
+{
+	font-size: 15px;
+	line-height: 20px;
+}
+.what_we_do_item:hover .what_we_do_icon
+{
+	border-color: #76daff;
+	color: #76daff;
+}
