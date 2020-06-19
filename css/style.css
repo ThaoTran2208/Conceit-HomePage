@@ -12,6 +12,10 @@ body
 	line-height: 30px;
 	color: #777777;
 }
+.clear
+{
+	clear: both;
+}
 
 h1{
 	font-sizr: 40px;
@@ -378,4 +382,41 @@ h5{
 	height: 50px;
 	padding: 2px;
 	border: 1px solid #999999;
+}
+
+
+.contact_content
+{
+	margin-top: 20px;
+}
+.contact_icon
+{
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+.contact_details
+{
+	width: 80%;
+	float: left;
+}
+.contact_icon i
+{
+	font-size: 24px;
+	line-height: 32px;
+	color: #fefefe;
+}
+.contact_details h4, .contact_details p
+{
+	font-size: 14px;
+	line-height: 32px;
+	color: #fefefe;
+	letter-spacing: 2px;
+}
+
+
+.contact_item{
+	width: 255px;
+	background-color: #080808;
+	color: #777;
 }
