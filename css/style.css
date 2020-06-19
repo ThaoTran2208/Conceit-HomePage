@@ -157,3 +157,24 @@ h5{
 	border-color: #76daff;
 	color: #76daff;
 }
+
+
+.project_item{
+	width: 255px;
+	margin: 15px;
+}
+.project_item img{
+	min-height: 100%;
+	width: auto;
+}
+.project_content{
+	padding: 10px 20px;
+}
+.project_content h5{
+	color: #292929;
+	letter-spacing: 2px;
+}
+.project_item:hover .project_content{
+	background-color: #ff3c41;
+	color: #fff;
+}
