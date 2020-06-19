@@ -321,3 +321,38 @@ h5{
 {
 	background-color: #bd081c;
 }
+
+
+.footer_title p
+{
+	font-size: 22px;
+	line-height: 32px;
+	color: #fefefe;
+	letter-spacing: 2px;
+}
+.footer_title p span
+{
+	font-size: 22px;
+	line-height: 32px;
+	color: #fefefe;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.info
+{
+	width: 160px;
+	background-color: #080808;
+}
+.info ul
+{
+	list-style: none;
+	margin-top: 30px;
+}
+.info ul li a
+{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 32px;
+	color: #848484;
+	letter-spacing: 2px;
+}
