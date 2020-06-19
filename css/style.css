@@ -5,10 +5,6 @@
 	box-sizing: border-box;
 }
 
-.clear
-{
-	clear: both;
-}
 body
 {
 	font-family: 'Raleway', sans-serif;
@@ -45,4 +41,12 @@ body
 .nav ul li a:hover{
 	background-color: #ff3c41;
 	color: #fff;
+}
+
+/*banner style*/
+.container-fluid{
+	width: 100%;
+}
+.slider img{
+	width: 100%;
 }
