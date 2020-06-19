@@ -77,7 +77,7 @@ h5{
 	color: #1b1b1b;
 }
 
-.content{
+.about_content{
 	width: 540px;
 	margin: 15px;
 }
@@ -176,5 +176,33 @@ h5{
 }
 .project_item:hover .project_content{
 	background-color: #ff3c41;
+	color: #fff;
+}
+
+
+.blog{
+}
+.blog_content{
+	padding: 20px;
+
+	width:285px;
+	background-color: #76daff;
+}
+.blog_content h6{
+	font-size: 15px;
+	color: #f00;
+	letter-spacing: 1px;
+}
+.blog_content p{
+	color: #fff;
+}
+.blog_content button{
+	border: none;
+	backgound: none;
+	padding: 10px;
+	font-size: 12px;
+}
+.blog_content:hover button{
+	background-color: #f00;
 	color: #fff;
 }
