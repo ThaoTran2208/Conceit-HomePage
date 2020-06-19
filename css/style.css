@@ -85,6 +85,9 @@ h5{
 	width: 540px;
 	margin: 15px;
 }
+.about_content h2{
+	color: #3c3c3c;
+}
 .content p{
 	margin: 15px 0;
 }
