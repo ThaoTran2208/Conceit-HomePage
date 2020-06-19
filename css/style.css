@@ -356,3 +356,26 @@ h5{
 	color: #848484;
 	letter-spacing: 2px;
 }
+
+
+.ourwork
+{
+	width: 255px;
+}
+.ourwork ul
+{
+	list-style: none;
+	margin-top: 30px;
+}
+.ourwork ul li 
+{
+	float: left;
+	margin: 0 15px 8px 0;
+}
+.ourwork ul li img
+{
+	width: 63px;
+	height: 50px;
+	padding: 2px;
+	border: 1px solid #999999;
+}
