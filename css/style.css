@@ -117,7 +117,7 @@ h5{
 {
 	font-size: 40px;
 	color: #76daff;
-	margin-right: 20px;
+	margin-right: 25px;
 }
 .service_item h4
 {
@@ -133,7 +133,6 @@ h5{
 	margin: 15px;
 	text-align: center;
 	padding: 20px 0 50px 0;
-	background-color: #1c1c1c;
 }
 .what_we_do_icon
 {
@@ -230,7 +229,7 @@ h5{
 .testimonials_img
 {
 	width: 350px;
-	margin: 15px;
+	margin: 15px 30px;
 	text-align: right;
 }
 .testimonials_img img
@@ -283,6 +282,8 @@ h5{
 .about_footer
 {
 	width: 350px;
+	margin: 20px 15px;
+	float: left;
 }
 .about_footer p
 {
@@ -345,7 +346,8 @@ h5{
 .info
 {
 	width: 160px;
-	background-color: #080808;
+	margin: 45px 15px;
+	float: left;
 }
 .info ul
 {
@@ -365,6 +367,8 @@ h5{
 .ourwork
 {
 	width: 255px;
+	float: left;
+	margin: 45px 15px;
 }
 .ourwork ul
 {
@@ -404,19 +408,78 @@ h5{
 {
 	font-size: 24px;
 	line-height: 32px;
-	color: #fefefe;
 }
 .contact_details h4, .contact_details p
 {
 	font-size: 14px;
 	line-height: 32px;
-	color: #fefefe;
 	letter-spacing: 2px;
 }
 
 
 .contact_item{
 	width: 255px;
-	background-color: #080808;
 	color: #777;
+}
+
+
+
+
+
+.about-us-item, .what_we_do, .projects, .blogs, .testimonials_item{
+	display: flex;
+	flex-direction: row;
+}
+
+.service{
+	display: flex;
+	flex-direction: row;
+}
+
+.bg_what_we_do{
+	background-color: #1c1c1c;
+	padding-top: 10px;
+}
+
+.bg_what_we_do .title h1{
+	color: #fff;
+}
+
+.lastest-blogs .title h1{
+	margin-bottom: 40px;
+}
+
+.testimonials{
+	background-image: url("../images/bg_testimonial.png");
+	background-size: cover;
+	padding: 70px 0;
+	margin: 50px 0 0 0;
+}
+.testimonials_content{
+	width: 730px;
+}
+.testimonials .title h1{
+	color: #fff;
+}
+.testimonials_content p{
+	color: #f7f7f7;
+	letter-spacing: 3px;
+}
+.testimonials_content h6{
+	font-size: 16px;
+	color:#76daff;
+}
+
+.bg_footer
+{
+	width: 100%;
+	float: left;
+	background-color: #080808;
+	min-height: 100px;
+}
+
+.contact{
+	margin: 45px 15px;
+	float: left;
+	width: 255px;
 }
