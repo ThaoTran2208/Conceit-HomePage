@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.15.3/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.15.3/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.15.3/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.15.3/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.15.3/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+    <!-- <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style> -->
+  </head>
+  <body>
+      <div class="container header" id="header">
+    <div class="logo">
+      <img src="images/logo.png">
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#blog">Blogs</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-fluid slider">
+    <img src="images/Slider_1.png" alt="sd1" />
+  </div>
+
+  <div class="container about-us" id="about">
+    <div class="title">
+      <h1>about us</h1>
+    </div>
+    <div class="about-us-item">
+      <div class="about-us-img">
+        <img src="images/img_about.png" alt="about">
+      </div>
+      <div class="about_content content">
+        <h2>Working to build a better web design</h2>
+        <p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget pulvinar neque pharetra ac.</p>
+        <p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget pulvinar neque pharetra ac.</p>
+        <button id="read-more-btn">READ MORE</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="line"></div>
+
+  <div class="container service">
+    <div class="service_item">
+      <i class="fa fa-laptop"></i>
+      <div class="service-content">
+        <h4>Digital Solutions</h4>
+        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p> 
+      </div>
+    </div>
+    <div class="service_item">
+      <i class="fa fa-pencil-square-o"></i>
+      <div class="service-content">
+        <h4>Live Website Builder</h4>
+        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p> 
+      </div>
+    </div>
+    <div class="service_item">
+      <i class="fa fa-newspaper-o"></i>
+      <div class="service-content">
+        <h4>Creative Strategy</h4>
+        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p> 
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg_what_we_do" id="service">
+    <div class="title">
+      <h1>what we do</h1>
+    </div>
+    <div class="container what_we_do">
+      <div class="what_we_do_item">
+        <div class="what_we_do_icon">
+          <i class="fa fa-shield"></i>
+        </div>
+        <h4>Unique Design</h4>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+      <div class="what_we_do_item">
+        <div class="what_we_do_icon">
+          <i class="fa fa-pencil"></i>
+        </div>
+        <h4>Unique Design</h4>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+      <div class="what_we_do_item">
+        <div class="what_we_do_icon">
+          <i class="fa fa-star"></i>
+        </div>
+        <h4>Unique Design</h4>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+      <div class="what_we_do_item">
+        <div class="what_we_do_icon">
+          <i class="fa fa-thumbs-up"></i>
+        </div>
+        <h4>Unique Design</h4>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="project">
+    <div class="title">
+      <h1>projects</h1>
+    </div>
+    <div class="projects">
+      <div class="project_item">
+        <img src="images/img_project_1.png" alt="pj1">
+        <div class="project_content">
+          <h5>View Project</h5>
+          <p>Add Some Description</p>
+        </div>
+      </div>
+      <div class="project_item">
+        <img src="images/img_project_2.png" alt="pj1">
+        <div class="project_content">
+          <h5>View Project</h5>
+          <p>Add Some Description</p>
+        </div>
+      </div>
+      <div class="project_item">
+        <img src="images/img_project_3.png" alt="pj1">
+        <div class="project_content">
+          <h5>View Project</h5>
+          <p>Add Some Description</p>
+        </div>
+      </div>
+      <div class="project_item">
+        <img src="images/img_project_4.png" alt="pj1">
+        <div class="project_content">
+          <h5>View Project</h5>
+          <p>Add Some Description</p>
+        </div>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="project_item">
+        <img src="images/img_project_4.png" alt="pj1">
+        <div class="project_content">
+          <h5>View Project</h5>
+          <p>Add Some Description</p>
+        </div>
+      </div>
+      <div class="project_item">
+        <img src="images/img_project_3.png" alt="pj1">
+        <div class="project_content">
+          <h5>View Project</h5>
+          <p>Add Some Description</p>
+        </div>
+      </div>
+      <div class="project_item">
+        <img src="images/img_project_2.png" alt="pj1">
+        <div class="project_content">
+          <h5>View Project</h5>
+          <p>Add Some Description</p>
+        </div>
+      </div>
+      <div class="project_item">
+        <img src="images/img_project_1.png" alt="pj1">
+        <div class="project_content">
+          <h5>View Project</h5>
+          <p>Add Some Description</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container lastest-blogs" id="blog">
+    <div class="title">
+      <h1>Lastest Blogs</h1>
+    </div>
+    <div class="blogs">
+      <div class="blog_content content">
+        <h6>Jan.08.2018</h6>
+        <h3>Strategic Planning</h3>
+        <p>Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
+        <button>KNOW MORE</button>
+      </div>
+
+      <div class="blog_img">
+        <img src="images/blog_1.png" alt="blog1">
+      </div>
+      <div class="blog_content content">
+        <h6>Jan.08.2018</h6>
+        <h3>Strategic Planning</h3>
+        <p>Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
+        <button>KNOW MORE</button>
+      </div>
+
+      <div class="blog_img">
+        <img src="images/blog_2.png" alt="blog1">
+      </div>
+    </div>
+    <div class="blogs">
+      <div class="blog_img">
+        <img src="images/blog_3.png" alt="blog1">
+      </div>
+      <div class="blog_content content">
+        <h6>Jan.08.2018</h6>
+        <h3>Strategic Planning</h3>
+        <p>Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
+        <button>KNOW MORE</button>
+      </div>
+
+      <div class="blog_img">
+        <img src="images/blog_1.png" alt="blog1">
+      </div>
+      <div class="blog_content content">
+        <h6>Jan.08.2018</h6>
+        <h3>Strategic Planning</h3>
+        <p>Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
+        <button>KNOW MORE</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="contain_fluid testimonials">
+    <div class="title">
+      <h1>Testimonials</h1>
+    </div>
+    <div class="container testimonials_item">
+      <div class="testimonials_img">
+        <img src="images/user2.jpg">
+      </div>
+      <div class="testimonials_content content">
+        <p>Maecenas quis neque libero. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
+        <p>Maecenas quis neque libero. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
+        <h6>Sara Lisbon</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="container signup">
+    <div class="signup_title">
+      <h3>Sign up for Newsletter !</h3>
+    </div>
+    <div class="signup_form">
+      <form>
+        <input type="email" placeholder="Enter your email">
+        <button>SUBMIT</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="contain_fluid bg_footer">
+    <div class="container footer">
+      <div class="about_footer">
+        <img src="images/logo_bottom.png">
+        <p>Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
+        <ul>
+          <li><i class="fa fa-facebook"></i></li>
+          <li><i class="fa fa-twitter"></i></li>
+          <li><i class="fa fa-instagram"></i></li>
+          <li><i class="fa fa-linkedin"></i></li>
+        </ul>
+      </div>
+      <div class="info">
+        <div class="footer_title">
+          <p><span>Latest</span> Info</p>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Signin</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="ourwork">
+        <div class="footer_title">
+          <p><span>Our</span> Works</p>
+        </div>
+        <ul>
+          <li><img src="images/img_project_1.png"></li>
+          <li><img src="images/img_project_2.png"></li>
+          <li><img src="images/img_project_3.png"></li>
+          <li><img src="images/img_project_4.png"></li>
+          <li><img src="images/img_project_5.png"></li>
+          <li><img src="images/img_project_6.png"></li>
+          <li><img src="images/img_project_7.png"></li>
+          <li><img src="images/img_project_8.png"></li>
+          <li><img src="images/img_project_2.png"></li>
+        </ul>
+      </div>
+      <div class="contact">
+        <div class="footer_title">
+          <p><span>Contact</span> Information</p>
+        </div>
+        <div class="contact_content">
+          <div class="contact_icon">
+            <i class="fa fa-phone"></i>
+          </div>
+          <div class="contact_details">
+            <h4>Phone Number</h4>
+            <p>+1 234 567 8901</p>
+          </div>
+          <div class="contact_icon">
+            <i class="fa fa-envelope"></i>
+          </div>
+          <div class="contact_details">
+            <h4>Email Address</h4>
+            <p>Email : mail@example.com</p>
+          </div>
+          <div class="contact_icon">
+            <i class="fa fa-map-marker"></i>
+          </div>
+          <div class="contact_details">
+            <h4>Location</h4>
+            <p>Broome St, NY </p>
+            <p>10002,California, USA.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

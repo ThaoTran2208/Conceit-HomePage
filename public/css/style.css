@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	color: #777777;
+}
+.clear
+{
+	clear: both;
+}
+
+h1{
+	font-sizr: 40px;
+}
+h2{
+	font-size: 26px;
+}
+h3{
+	font-size: 24px;
+}
+h4{
+	font-size: 20px;
+}
+h5{
+	font-size: 18px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+/*header style*/
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav ul{
+	list-style:none;
+	display: flex;
+	flex-direction: row;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #272727;
+	font-weight: bold;
+	padding: 15px;
+	text-transform: uppercase;
+}
+.nav ul li a:hover{
+	background-color: #ff3c41;
+	color: #fff;
+}
+
+/*banner style*/
+.container-fluid{
+	width: 100%;
+}
+.slider img{
+	width: 100%;
+}
+
+
+.title{
+	margin: 40px auto 20px auto;
+	text-align: center;
+}
+.title h1{
+	text-transform: capitalize;
+	color: #1b1b1b;
+}
+
+.about_content{
+	width: 540px;
+	margin: 15px;
+}
+.about_content h2{
+	color: #3c3c3c;
+}
+.content p{
+	margin: 15px 0;
+}
+#read-more-btn{
+	border: 3px solid #daf5ff;
+    color: #3c3c3c;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    background: none;
+}
+
+.line
+{
+	height: 1px;
+	width: 100%;
+	background-color: #fbfbfb;
+}
+
+.service_item 
+{
+	width: 350px;
+	margin: 15px;
+	padding: 30px 0;
+	display: flex;
+	flex-direction: row;
+}
+.service_item i
+{
+	font-size: 40px;
+	color: #76daff;
+	margin-right: 25px;
+}
+.service_item h4
+{
+	letter-spacing: 2px;
+	color: #222222;
+	padding-bottom: 15px;
+}
+
+
+.what_we_do_item
+{
+	width: 255px;
+	margin: 15px;
+	text-align: center;
+	padding: 20px 0 50px 0;
+}
+.what_we_do_icon
+{
+	width: 122px;
+	height: 122px;
+	border: 2px solid #fff;
+	font-size: 40px;
+	color: #fff;
+	line-height: 122px;
+	margin: 15px auto;
+	border-radius: 50%;
+}
+.what_we_do_item h4
+{
+	letter-spacing: 2px;
+	color: #fff;
+}
+.what_we_do_item p
+{
+	font-size: 15px;
+	line-height: 20px;
+}
+.what_we_do_item:hover .what_we_do_icon
+{
+	border-color: #76daff;
+	color: #76daff;
+}
+
+
+.project_item{
+	width: 255px;
+	margin: 15px;
+}
+.project_item img{
+	min-height: 100%;
+	width: auto;
+}
+.project_content{
+	padding: 10px 20px;
+}
+.project_content h5{
+	color: #292929;
+	letter-spacing: 2px;
+}
+.project_item:hover .project_content{
+	background-color: #ff3c41;
+	color: #fff;
+}
+
+
+.blog{
+}
+.blog_content{
+	padding: 20px;
+
+	width:285px;
+	background-color: #76daff;
+}
+.blog_content h6{
+	font-size: 15px;
+	color: #f00;
+	letter-spacing: 1px;
+}
+.blog_content h3{
+	color: #222;
+	letter-spacing: 2px;
+}
+.blog_content p{
+	color: #fff;
+}
+.blog_content button{
+	border: none;
+	backgound: none;
+	padding: 10px;
+	font-size: 12px;
+}
+.blog_content:hover button{
+	background-color: #f00;
+	color: #fff;
+}
+
+.blog_img
+{
+	width: 285px;
+	height: 222px;
+}
+.blog_img img
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.testimonials_img
+{
+	width: 350px;
+	margin: 15px 30px;
+	text-align: right;
+}
+.testimonials_img img
+{
+	border: 3px solid #7b8687;
+	padding: 25px;
+}
+
+
+.signup{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.signup_title
+{
+	width: 445px;
+	margin: 50px 15px;
+}
+.signup_title h3
+{
+	color: #333333;
+	letter-spacing: 3px;
+}
+.signup_form
+{
+	width: 630px;
+	margin: 50px 15px;
+}
+.signup_form input[type=email]
+{
+	width: 80%;
+	height: 40px;
+	border: 1px solid #333;
+	padding-left: 10px;
+	font-style: italic;
+}
+.signup_form button
+{
+	width: 19%;
+	border: none;
+	background-color: #76daff;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 3px;
+	line-height: 40px;
+}
+
+
+.about_footer
+{
+	width: 350px;
+	margin: 20px 15px;
+	float: left;
+}
+.about_footer p
+{
+	font-size: 14px;
+	line-height: 32px;
+	margin: 30px 0;
+	letter-spacing: 2px;
+	color: #737070;
+}
+.about_footer ul
+{
+	list-style: none;
+	margin: 15px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.about_footer ul li
+{
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 36px;
+	color: #fefefe;
+}
+.about_footer ul li:nth-child(1)
+{
+	background-color: #3b5998;
+}
+.about_footer ul li:nth-child(2)
+{
+	background-color: #00acee;
+}
+.about_footer ul li:nth-child(3)
+{
+	background-color: #f77737;
+}
+.about_footer ul li:nth-child(4)
+{
+	background-color: #bd081c;
+}
+
+
+.footer_title p
+{
+	font-size: 22px;
+	line-height: 32px;
+	color: #fefefe;
+	letter-spacing: 2px;
+}
+.footer_title p span
+{
+	font-size: 22px;
+	line-height: 32px;
+	color: #fefefe;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.info
+{
+	width: 160px;
+	margin: 45px 15px;
+	float: left;
+}
+.info ul
+{
+	list-style: none;
+	margin-top: 30px;
+}
+.info ul li a
+{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 32px;
+	color: #848484;
+	letter-spacing: 2px;
+}
+
+
+.ourwork
+{
+	width: 255px;
+	float: left;
+	margin: 45px 15px;
+}
+.ourwork ul
+{
+	list-style: none;
+	margin-top: 30px;
+}
+.ourwork ul li 
+{
+	float: left;
+	margin: 0 15px 8px 0;
+}
+.ourwork ul li img
+{
+	width: 63px;
+	height: 50px;
+	padding: 2px;
+	border: 1px solid #999999;
+}
+
+
+.contact_content
+{
+	margin-top: 20px;
+}
+.contact_icon
+{
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+.contact_details
+{
+	width: 80%;
+	float: left;
+}
+.contact_icon i
+{
+	font-size: 24px;
+	line-height: 32px;
+}
+.contact_details h4, .contact_details p
+{
+	font-size: 14px;
+	line-height: 32px;
+	letter-spacing: 2px;
+}
+
+
+.contact_item{
+	width: 255px;
+	color: #777;
+}
+
+
+
+
+
+.about-us-item, .what_we_do, .projects, .blogs, .testimonials_item{
+	display: flex;
+	flex-direction: row;
+}
+
+.service{
+	display: flex;
+	flex-direction: row;
+}
+
+.bg_what_we_do{
+	background-color: #1c1c1c;
+	padding-top: 10px;
+}
+
+.bg_what_we_do .title h1{
+	color: #fff;
+}
+
+.lastest-blogs .title h1{
+	margin-bottom: 40px;
+}
+
+.testimonials{
+	background-image: url("../images/bg_testimonial.png");
+	background-size: cover;
+	padding: 70px 0;
+	margin: 50px 0 0 0;
+}
+.testimonials_content{
+	width: 730px;
+}
+.testimonials .title h1{
+	color: #fff;
+}
+.testimonials_content p{
+	color: #f7f7f7;
+	letter-spacing: 3px;
+}
+.testimonials_content h6{
+	font-size: 16px;
+	color:#76daff;
+}
+
+.bg_footer
+{
+	width: 100%;
+	float: left;
+	background-color: #080808;
+	min-height: 100px;
+}
+
+.contact{
+	margin: 45px 15px;
+	float: left;
+	width: 255px;
+}
